@@ -43,6 +43,11 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.0'
 end
 
+group :test do
+  gem 'capybara'
+  gem 'launchy'
+end
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
